@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'MainInvoice', component: MainInvoiceComponent },
   { path: 'InvoiceList', component: InvoiceListComponent },
   { path: 'Invoice', component: InvoiceComponent },
-  { path: 'Invoice/:idFacture/:active/', component: InvoiceComponent },
+  { path: 'Invoice/:id', component: InvoiceComponent },
 ];
 
 @NgModule({

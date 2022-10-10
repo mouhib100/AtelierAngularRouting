@@ -1,3 +1,4 @@
 <div class="invoiceList" *ngFor="let list of invoiceList; index as i">
-    <p>Facture : {{list.idFacture}} <a routerLink="/Invoice">Details</a></p>
+    <p>Facture : {{list.idFacture}} <a [routerLink]="['/Invoice', list.idFacture]">Details</a></p>
+
 </div>

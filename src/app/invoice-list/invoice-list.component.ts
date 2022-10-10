@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 import { Invoice } from '../invoice.models';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-invoice-list',
   templateUrl: './invoice-list.component.html',
@@ -47,7 +47,9 @@ export class InvoiceListComponent implements OnInit {
     },
   ];
 
-  constructor() {}
+  constructor(private router:Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+
+  }
 }

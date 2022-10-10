@@ -1,4 +1,11 @@
 <div class="invoice">
-    <p>invoice works!</p>
+    <table>
+        <tr>
+            <td>{{this.list.montantFacture}}</td>
+            <td>{{this.list.montantRemise}}</td>
+            <td>{{this.list.dateFacture}}</td>
+            <td>{{this.list.active}}</td>
+        </tr>
+    </table>
     <button class="btn btn-primary me-md-2" type="button" routerLink="/MainInvoice">Retour</button>
 </div>
